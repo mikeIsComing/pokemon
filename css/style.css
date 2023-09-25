@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ddcfdb;
+  position: relative;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+body .container {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 50vmin;
+  background-color: #fff;
+  max-height: 75vh;
+  border-radius: 0.625rem;
+  padding: 1.5rem 0;
+}
+body .result {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+body .result h2 {
+  margin-bottom: 2rem;
+}
+body .result .types {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+body .result .types #typeOne {
+  padding: 0.2rem 0.625rem;
+  border-radius: 0.625rem;
+}
+body .result .abilities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .result .ability-item {
+  flex-basis: 30%;
+  text-align: center;
+}
+body .result .ability-item p {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+body .result .ability-item h4 {
+  font-weight: 300;
+  color: #fff;
+}
+body .result #pokemon-pic {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+body .result .hp {
+  width: 100%;
+  text-align: end;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+body .result .hp span {
+  font-weight: 300;
+  color: #fff;
+}
+
+button {
+  position: absolute;
+  transform: translate(-50%, 15%);
+  bottom: -15%;
+  left: 50%;
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.2rem;
+  border: none;
+  outline: none;
+  width: 7rem;
+  cursor: pointer;
+  background-color: #012b51;
+  color: #fff;
+}
+
+.error-message {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
